@@ -1,0 +1,31 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_442
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = cool_slideshow
+  action = setbackgroundslideshow
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = dominion_logo.png
+  orientation = top-left
+  x = 190
+  width = 100
+  action = addtexture
+  actionid = 5dd04832-488d-455e-b121-5e4f551a23f01653681984805
+  y = 0
+  height = 100
+}
+
